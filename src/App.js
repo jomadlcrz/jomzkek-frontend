@@ -67,7 +67,7 @@ function App() {
     setIsLoading(true);
 
     try {
-      const response = await axios.post('https://jomzkek-backend.onrender.com/api/chat', { 
+      const response = await axios.post('https://jomzkek-chatbot-api.onrender.com/chat', { 
         message: trimmedInput 
       });
 
